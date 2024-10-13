@@ -11,10 +11,10 @@
         <h1>Буст аккаунтов в играх</h1>
         <nav>
             <ul>
-                <li><a href="#services">Услуги</a></li>
-                <li><a href="#about">О нас</a></li>
-                <li><a href="#reviews">Отзывы</a></li>
-                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#" onclick="loadSection('services')">Услуги</a></li>
+                <li><a href="#" onclick="loadSection('about')">О нас</a></li>
+                <li><a href="#" onclick="loadSection('reviews')">Отзывы</a></li>
+                <li><a href="#" onclick="loadSection('contact')">Контакты</a></li>
             </ul>
         </nav>
     </header>
@@ -22,67 +22,13 @@
     <section id="hero">
         <h2>Добро пожаловать!</h2>
         <p>Мы поможем вам поднять уровень вашего аккаунта в любимых играх.</p>
-        <a href="#services" class="btn">Начать</a>
+        <a href="#" onclick="loadSection('services')" class="btn">Начать</a>
     </section>
 
-    <section id="services">
-        <h2>Наши услуги</h2>
-        <ul>
-            <li>
-                <h3>Буст уровня</h3>
-                <p>Увеличьте уровень вашего персонажа быстро и безопасно.</p>
-            </li>
-            <li>
-                <h3>Буст рейтинга</h3>
-                <p>Поднимите свой рейтинг в PvP и соревнованиях.</p>
-            </li>
-            <li>
-                <h3>Буст для конкретных игр</h3>
-                <p>Специальные предложения для LoL, Dota 2, Fortnite и других игр.</p>
-            </li>
-        </ul>
-    </section>
-
-    <section id="about">
-        <h2>О нашей команде</h2>
-        <p>Мы - команда профессионалов с многолетним опытом в игровом бусте.</p>
-        <h3>Почему выбрать нас?</h3>
-        <ul>
-            <li>Безопасность и конфиденциальность</li>
-            <li>Быстрые сроки выполнения</li>
-            <li>Гарантия качества услуг</li>
-        </ul>
-    </section>
-
-    <section id="reviews">
-        <h2>Отзывы наших клиентов</h2>
-        <ul>
-            <li>
-                <p>Отличный сервис! Уровень повысился за пару дней. - <strong>Иван</strong></p>
-            </li>
-            <li>
-                <p>Рекомендую! Быстро и безопасно. - <strong>Анна</strong></p>
-            </li>
-        </ul>
-        <h3>Оставьте свой отзыв</h3>
-        <form>
-            <input type="text" placeholder="Ваше имя" required>
-            <textarea placeholder="Ваш отзыв" required></textarea>
-            <button type="submit">Отправить</button>
-        </form>
-    </section>
-
-    <section id="contact">
-        <h2>Свяжитесь с нами</h2>
-        <form>
-            <input type="text" placeholder="Ваше имя" required>
-            <input type="email" placeholder="Ваш email" required>
-            <textarea placeholder="Сообщение" required></textarea>
-            <button type="submit">Отправить</button>
-        </form>
-        <h3>Контактная информация</h3>
-        <p>Телефон: +7 (123) 456-78-90</p>
-        <p>Email: zolaola753@gmail.com</p>
+    <section id="content">
+        <!-- Основное содержимое будет загружено сюда -->
+        <h2>Выберите раздел</h2>
+        <p>Выберите услугу, чтобы увидеть подробности.</p>
     </section>
 
     <footer>
@@ -93,5 +39,8 @@
             </ul>
         </nav>
     </footer>
+
+    <script src="script.js"></script> <!-- Подключаем JavaScript -->
 </body>
 </html>
+
